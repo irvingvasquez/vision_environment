@@ -13,7 +13,7 @@ git clone https://github.com/irvingvasquez/vision_environment.git
 ```
 - En la carpeta del proyecto clonado encontrarás un archivo .yml con la configuración necesaria. Ejecuta el siguiente comando para crear el ambiente (este paso tomará varios minutos antes de completarse por todos los paquetes que se necesitan instalar).
 ```sh
-$ conda env create -f vision_environment.yml
+$ conda env create -f environment.yml
 ```
 - Para verficar que se instaló el ambiente puedes listar todos los ambientes con:
 ```sh
@@ -21,7 +21,7 @@ $ conda info --envs
 ```
 - Una vez instalado en ambiente es necesario activarlo cada vez que abras una terminal:
 ```sh
-$ source activate vision_environment
+$ source activate vision_env
 ```
 
-[conda]: <https://conda.io/docs/user-guide/install/index.html> 
+[conda]: <https://docs.conda.io/en/latest/miniconda.html> 
