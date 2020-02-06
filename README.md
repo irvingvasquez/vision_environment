@@ -1,6 +1,6 @@
 # Vision Computacional
 
-En este repositorio encontrarás el ambiente que utilizaremos para la primera parte del curso donde veremos la parte geométrica de la visión comptuacional. Yo he probado el ambiente en linux pero puede ser implementado en windows instalando anaconda.
+En este repositorio encontrarás el ambiente que utilizaremos para la primera parte del curso donde veremos la parte geométrica de la visión computacional. Yo he probado el ambiente en linux pero puede ser implementado en windows instalando anaconda.
 
 ## Instrucciones de instalación
 
@@ -11,12 +11,11 @@ Realiza las siguientes instrucciones en tu máquina (Instrucciones en Linux, con
 ```sh
 $ git clone https://github.com/irvingvasquez/vision_environment.git
 ```
-- En la carpeta del proyecto clonado encontrarás un archivo *.yml* con la configuración necesaria. Ejecuta el siguiente comando para crear el ambiente (este paso tomará varios minutos antes de completarse por todos los paquetes que se necesitan instalar).
+- En la carpeta del proyecto clonado encontrarás un archivo *.yml* con la configuración necesaria. Ejecuta el siguiente comando para crear el ambiente (este paso tomará varios minutos antes de completarse por todos los paquetes que se necesitan instalar). Al terminar deberá estar configurado el ambiente llamado *vision*.
 ```sh
 $ conda env create -f environment.yml
 ```
-Una vez concluido deberá estar configurado el ambiente llamado *vision*
-- Para verficar que se instaló el ambiente puedes listar todos los ambientes con:
+- Para verficar que se instaló el ambiente puedes listar todos los ambientes disponibles con:
 ```sh
 $ conda info --envs
 ```
